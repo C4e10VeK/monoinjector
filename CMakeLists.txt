@@ -9,5 +9,4 @@ file(
 )
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${HEADER_FILES})
-# add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES} ${HEADER_FILES})
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_20)
